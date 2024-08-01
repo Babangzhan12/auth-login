@@ -88,3 +88,10 @@ Nest is [MIT licensed](LICENSE).
 ## 9. Membuat User Management 
 ## 10. Membuat user.e2e-spec.ts untuk melakukan pengujian token 
 
+## Dokumentasi API with postman
+
+## Register user /api/users
+![alt text](image.png)
+
+## Login user /api/users/login
+![alt text](image-1.png)
