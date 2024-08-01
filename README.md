@@ -71,3 +71,20 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## FAUZAN NOTE :
+
+"Saya menggunakan pola MVC yang memisahkan tanggung jawab untuk aplikasi. dan kenapa saya memilih menggunakan pola ini karena menurut saya dengan menggunakan pola ini dapat memudahkan dalam pemeliharaan dan membuat aplikasi menjadi lebih terstruktur, mudah dikelola, dan scalable."
+
+## 1. Install nodejs & nestjs
+## 2. Install config module
+## 3. Install zod (validation)
+## 4. Install prisma (database)
+## 5. Install nest-wingston (logger)
+## 6. Install bcrypt (hashing password)
+## 7. Install jsonwebtoken (token api)
+## 8. Membuat user api spec
+## 9. Penerapan MVC 
+## 9. Membuat User Management 
+## 10. Membuat user.e2e-spec.ts untuk melakukan pengujian token 
+
