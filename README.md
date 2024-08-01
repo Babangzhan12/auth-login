@@ -77,12 +77,21 @@ Nest is [MIT licensed](LICENSE).
 "Saya menggunakan pola MVC yang memisahkan tanggung jawab untuk aplikasi. dan kenapa saya memilih menggunakan pola ini karena menurut saya dengan menggunakan pola ini dapat memudahkan dalam pemeliharaan dan membuat aplikasi menjadi lebih terstruktur, mudah dikelola, dan scalable."
 
 ## 1. Install nodejs & nestjs
+  - npm install -g @nestjs/cli
 ## 2. Install config module
+  - npm install @nestjs/config
 ## 3. Install zod (validation)
+  - npm install zod
 ## 4. Install prisma (database)
+  - npm install --save-dev prisma
 ## 5. Install nest-wingston (logger)
-## 6. Install bcrypt (hashing password)
-## 7. Install jsonwebtoken (token api)
+  - npm install nest-winston
+## 6. Install jsonwebtoken (token api)
+  - npm install jsonwebtoken
+  - npm install --save-dev @types/jsonwebtoken
+## 7. Install bcrypt (hashing password)
+  - npm install bcrypt
+  - npm i --save-dev @types/bcrypt
 ## 8. Membuat user api spec
 ## 9. Penerapan MVC 
 ## 9. Membuat User Management 
