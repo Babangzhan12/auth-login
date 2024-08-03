@@ -90,7 +90,7 @@ json : {
 }
 
 
-## Logout User
+## Delete User
 Endpoint DELETE : /api/users/current
 
 Headers: 

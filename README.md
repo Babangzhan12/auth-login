@@ -74,10 +74,11 @@ Nest is [MIT licensed](LICENSE).
 
 ## FAUZAN NOTE :
 
-"Saya menggunakan pola MVC yang memisahkan tanggung jawab untuk aplikasi. dan kenapa saya memilih menggunakan pola ini karena menurut saya dengan menggunakan pola ini dapat memudahkan dalam pemeliharaan dan membuat aplikasi menjadi lebih terstruktur, mudah dikelola, dan scalable."
+"Saya menggunakan pola MVC dan middleware yang memisahkan tanggung jawab untuk aplikasi. dan kenapa saya memilih menggunakan pola ini karena menurut saya dengan menggunakan pola ini dapat memudahkan dalam pemeliharaan dan membuat aplikasi menjadi lebih terstruktur, mudah dikelola, dan scalable."
 
 ## 1. Install nodejs & nestjs
   - npm install -g @nestjs/cli
+  - atau jika sudah meng clone bisa dengan npm install
 ## 2. Install config module
   - npm install @nestjs/config
 ## 3. Install zod (validation)
@@ -93,7 +94,7 @@ Nest is [MIT licensed](LICENSE).
   - npm install bcrypt
   - npm i --save-dev @types/bcrypt
 ## 8. Membuat user api spec
-## 9. Penerapan MVC 
+## 9. Membuat Middleware
 ## 9. Membuat User Management 
 ## 10. Membuat user.e2e-spec.ts untuk melakukan pengujian token 
 
@@ -104,3 +105,12 @@ Nest is [MIT licensed](LICENSE).
 
 ## Login user /api/users/login
 ![alt text](image-1.png)
+
+## Get user /api/users/current
+![alt text](image-2.png)
+
+## Update user /api/users/update
+![alt text](image-3.png)
+
+## Delete user /api/users/:username
+![alt text](image-4.png)
