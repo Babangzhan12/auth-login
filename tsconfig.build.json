@@ -1,4 +1,15 @@
 {
+  // "compilerOptions": {
+  //   "outDir": "./dist",
+  //   "rootDir": "./src",
+  //   "baseUrl": "./src",
+  //   "module": "commonjs",
+  //   "target": "es6",
+  //   "sourceMap": true,
+  //   "experimentalDecorators": true,
+  //   "emitDecoratorMetadata": true
+  // },
+  // "include": ["src/**/*.ts"],
   "extends": "./tsconfig.json",
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }

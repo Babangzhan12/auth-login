@@ -17,6 +17,7 @@ model User {
   username String @id @db.VarChar(100)
   password String @unique
   name     String @unique
+  email    String @unique
   role     Role @default(USER)
 
   @@map("users")
